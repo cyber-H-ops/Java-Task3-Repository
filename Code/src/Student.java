@@ -9,4 +9,8 @@ public class Student {
         centre = "Not Assigned";
     }
 
-}
+    Student(String name) {
+        System.out.println("CONSTRUCTOR: " + name);
+    }
+
+    }
