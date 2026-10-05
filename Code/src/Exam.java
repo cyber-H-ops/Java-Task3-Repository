@@ -4,5 +4,7 @@ public class Exam {
 
     static {
         System.out.println("STATIC: loading exam settings");
+        examYear = 2026;
+        fee = 25000;
     }
 }
