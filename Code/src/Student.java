@@ -5,6 +5,8 @@ public class Student {
 
     {
         System.out.println("INSTANCE BLOCK: setting defaults");
+        status = "PENDING";
+        centre = "Not Assigned";
     }
 
 }
