@@ -11,6 +11,9 @@ public class Student {
 
     Student(String name) {
         System.out.println("CONSTRUCTOR: " + name);
+        this.name = name;
+        status = "REGISTERED";
+        centre = "Centre A";
     }
 
     }
